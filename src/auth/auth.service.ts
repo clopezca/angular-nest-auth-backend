@@ -92,7 +92,7 @@ export class AuthService {
     };
   }
 
-  findOne(id: number) {
+/*   findOne(id: number) {
     return `This action returns a #${id} auth`;
   }
 
@@ -102,7 +102,7 @@ export class AuthService {
 
   remove(id: number) {
     return `This action removes a #${id} auth`;
-  }
+  } */
 
   getJwtToken(payload: JwtPayload) {
     const token = this.jwtService.sign(payload);
